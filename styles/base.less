@@ -70,7 +70,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   }
 
   &.syntax--other.syntax--inherited-class {
-    color: @green;
+    color: @yellow;
   }
 }
 
@@ -115,7 +115,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 }
 
 .syntax--constant {
-  color: @light-yellow;
+  color: @green;
 
   &.syntax--character.syntax--escape {
     color: @cyan;
@@ -130,7 +130,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   }
 
   &.syntax--other.syntax--symbol {
-    color: @green;
+    color: @yellow;
   }
 }
 
@@ -164,14 +164,14 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 }
 
 .syntax--string {
-  color: @green;
+  color: @yellow;
 
 
   &.syntax--regexp {
     color: @cyan;
 
     .syntax--source.syntax--ruby.syntax--embedded {
-      color: @yellow;
+      color: @green;
     }
   }
 
@@ -251,11 +251,11 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
     color: @cyan;
 
     &.syntax--class {
-      color: @green;
+      color: @yellow;
     }
 
     &.syntax--id {
-      color: @yellow;
+      color: @green;
     }
   }
 }
@@ -266,7 +266,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   }
 
   &.syntax--link {
-    color: @yellow;
+    color: @green;
   }
 
   &.syntax--function-call,
@@ -294,7 +294,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 
 .syntax--markup {
   &.syntax--bold {
-    color: @yellow;
+    color: @green;
     font-weight: bold;
   }
 
@@ -316,7 +316,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   }
 
   &.syntax--inserted {
-    color: @green;
+    color: @yellow;
   }
 
   &.syntax--list {
@@ -324,18 +324,18 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   }
 
   &.syntax--quote {
-    color: @yellow;
+    color: @green;
   }
 
   &.syntax--raw.syntax--inline {
-    color: @green;
+    color: @yellow;
   }
 }
 
 .syntax--source.syntax--gfm .syntax--markup {
   -webkit-font-smoothing: auto;
   &.syntax--heading {
-    color: @green;
+    color: @yellow;
 
     .syntax--marker {
       color: @cyan;
