@@ -1,7 +1,7 @@
 {
   "name": "dcb-ug-syntax",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A syntax theme for atom with the colors of the dcb corporate design.",
   "keywords": [
     "syntax",
